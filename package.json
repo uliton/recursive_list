@@ -1,6 +1,6 @@
 {
-  "homepage": ".",
-  "name": "react-starter-pack",
+  "homepage": "https://uliton.github.io/cubex_test_task",
+  "name": "cubex_test_task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,9 +40,8 @@
     ]
   },
   "devDependencies": {
-    "@mate-academy/eslint-config-react": "0.0.5",
     "eslint": "^7.13.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^4.0.0"
   }
 }
