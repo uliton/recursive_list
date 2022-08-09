@@ -1,0 +1,103 @@
+.sublist {
+  margin: 4px 4px 4px 44px;
+}
+
+.sublist__item {
+  border: 2px dashed lightskyblue;
+  margin: 4px 4px 4px 44px;
+  padding: 8px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 3px dotted yellowgreen;
+  padding: 8px;
+  margin: 4px;
+}
+
+.item__content {
+  display: flex;
+  align-items: center;
+}
+
+.item__control__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 4px;
+  border-left: 3px dotted yellowgreen;
+}
+
+.item__control__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.item__position__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item__positionButton {
+  width: 100%;
+  padding: 4px;
+  font-size: 10px;
+  border: none;
+  background-color: lightskyblue;
+  border: 2px solid lightskyblue;
+  color: #fff;
+}
+
+.item__positionButton:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: lightskyblue;
+}
+
+.actions__input {
+  padding: 4px;
+}
+
+.actions__input:focus {
+  outline: none;
+  border: 2px solid yellowgreen;
+}
+
+.item__actions__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.item__actionsButton_add {
+  width: 100%;
+  padding: 4px;
+  font-size: 10px;
+  background-color: yellowgreen;
+  border: 2px solid yellowgreen;
+  color: #fff;
+}
+
+.item__actionsButton_add:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: yellowgreen;
+}
+
+.item__actionsButton_del {
+  width: 100%;
+  padding: 4px;
+  font-size: 10px;
+  background-color: salmon;
+  border: 2px solid salmon;
+  color: #fff;
+}
+
+.item__actionsButton_del:hover {
+  background-color: #fff;
+  color: salmon;
+}

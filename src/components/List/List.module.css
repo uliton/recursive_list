@@ -1,0 +1,38 @@
+.list__container {
+  border: 3px solid salmon;
+  padding: 16px;
+}
+
+.list {
+  padding: 0;
+}
+
+.itemAdder__container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.itemAdder__input {
+  border: 2px solid grey;
+  padding-left: 8px;
+}
+
+.itemAdder__input:focus {
+  outline: none;
+  border:2px solid green;
+}
+
+.itemAdder__button {
+  padding: 8px 24px;
+  color: #fff;
+  background-color: green;
+  border: 1px solid #fff;
+}
+
+.itemAdder__button:hover {
+  cursor: pointer;
+  color: green;
+  background-color: #fff;
+  border: 1px solid green;
+}
