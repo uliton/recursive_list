@@ -1,6 +1,6 @@
 ## Cubex Test Task
 
-* [DEMO LINK](https://uliton.github.io/cubex_test_task/)
+* [DEMO LINK](https://uliton.github.io/Cubex_test_task/)
 <br>
 
 # Пользователь может:
@@ -21,9 +21,8 @@
 * Remove - удаляет элемент списка. Если элемент имеет вложенный список, тот удаляется вместе с элементом.
 <br>
 
-# А так же
+# А так же:
 * использован localStorage
-
 <br>
 
 # Dependencies
