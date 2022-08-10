@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Item } from "../Item"; 
+import React, { useEffect, useState } from 'react';
+import { Item } from '../Item';
 
 import styles from './List.module.css';
 
 export const List = () => {
-  const defaultList = { items: [] }
+  const defaultList = { items: [] };
   const [list, setList] = useState(defaultList);
   const [itemContent, setItemContent] = useState('');
   const [refresh, setRefresh] = useState(true);
@@ -21,8 +21,9 @@ export const List = () => {
     const item = {
       id: new Date().getTime(),
       content,
-      items: []
-    }
+      items: [],
+    };
+
     list.items = [...list.items, item];
     setRefresh(!refresh);
   };
@@ -50,7 +51,7 @@ export const List = () => {
             placeholder="enter input text here"
             className={styles.itemAdder__input}
             value={itemContent}
-            onChange={event => {
+            onChange={(event) => {
               setItemContent(event.target.value);
             }}
           />
@@ -62,7 +63,7 @@ export const List = () => {
               if (itemContent) {
                 addItem(itemContent);
                 setItemContent('');
-              };
+              }
             }}
           >
             ADD

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+/* eslint-disable no-param-reassign */
+/* eslint-disable react/prop-types */
+import React, { useState } from 'react';
 
 import styles from './Item.module.css';
 
-export const Item = ({ item, i, arr, refresh, setRefresh, }) => {
+export const Item = ({ item, i, arr, refresh, setRefresh }) => {
   const [subItemContent, setSubItemContent] = useState('');
   const [needSubList, setNeedSubList] = useState(false);
 
@@ -21,16 +23,17 @@ export const Item = ({ item, i, arr, refresh, setRefresh, }) => {
         setRefresh(!refresh);
         break;
       default:
-        setList(nweList);
-    };
+        setRefresh(!refresh);
+    }
   };
 
   const addSubItem = (content) => {
     const subItem = {
       id: new Date().getTime(),
       content,
-      items: []
+      items: [],
     };
+
     item.items = [...item.items, subItem];
     setRefresh(!refresh);
   };
@@ -55,14 +58,13 @@ export const Item = ({ item, i, arr, refresh, setRefresh, }) => {
                 setRefresh={setRefresh}
               />
             </li>
-            
           ))}
         </ul>
       )}
 
       <div className={styles.item}>
         <div className={styles.item__content}>
-          {item.content} 
+          {item.content}
         </div>
 
         <div className={styles.item__control__container}>
@@ -112,7 +114,7 @@ export const Item = ({ item, i, arr, refresh, setRefresh, }) => {
                     if (subItemContent) {
                       addSubItem(subItemContent);
                       setSubItemContent('');
-                    };
+                    }
                   }}
                 >
                   ADD
@@ -136,7 +138,7 @@ export const Item = ({ item, i, arr, refresh, setRefresh, }) => {
               type="text"
               className={styles.actions__input}
               value={subItemContent}
-              onChange={event => {
+              onChange={(event) => {
                 setSubItemContent(event.target.value);
               }}
             />
