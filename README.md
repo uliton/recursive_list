@@ -1,6 +1,6 @@
 ## Cubex Test Task
 
-* [DEMO LINK](https://uliton.github.io/Cubex_test_task/)
+* [DEMO LINK](https://uliton.github.io/cubex_test_task/)
 <br>
 
 # Пользователь может:
