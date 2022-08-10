@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Cubex_test_task/static/css/main.ba107e16.chunk.css",
+    "main.js": "/Cubex_test_task/static/js/main.91806d40.chunk.js",
+    "main.js.map": "/Cubex_test_task/static/js/main.91806d40.chunk.js.map",
+    "runtime-main.js": "/Cubex_test_task/static/js/runtime-main.2ffe13fe.js",
+    "runtime-main.js.map": "/Cubex_test_task/static/js/runtime-main.2ffe13fe.js.map",
+    "static/js/2.7fd39a7e.chunk.js": "/Cubex_test_task/static/js/2.7fd39a7e.chunk.js",
+    "static/js/2.7fd39a7e.chunk.js.map": "/Cubex_test_task/static/js/2.7fd39a7e.chunk.js.map",
+    "index.html": "/Cubex_test_task/index.html",
+    "static/css/main.ba107e16.chunk.css.map": "/Cubex_test_task/static/css/main.ba107e16.chunk.css.map",
+    "static/js/2.7fd39a7e.chunk.js.LICENSE.txt": "/Cubex_test_task/static/js/2.7fd39a7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ffe13fe.js",
+    "static/js/2.7fd39a7e.chunk.js",
+    "static/css/main.ba107e16.chunk.css",
+    "static/js/main.91806d40.chunk.js"
+  ]
+}
