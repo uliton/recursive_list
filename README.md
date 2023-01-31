@@ -1,6 +1,6 @@
-## Cubex Test Task
+## Recursive list
 
-* [DEMO LINK](https://uliton.github.io/cubex_recursion/)
+* [DEMO LINK](https://uliton.github.io/recursive_list/)
 <br>
 
 # Пользователь может:
@@ -30,7 +30,7 @@
 <br>
 
 # If you want to change some code just make installation:
-* Fork and clone [this repository](https://github.com/uliton/cubex_test_task)
+* Fork and clone [this repository](https://github.com/uliton/recursive_list)
 * Run "npm install" ore "npm i" in your terminal
 * Run "npm start"
 * Anjoy!

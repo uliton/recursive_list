@@ -1,6 +1,6 @@
 {
-  "homepage": "https://uliton.github.io/сubex_test_task",
-  "name": "cubex_test_task",
+  "homepage": "https://uliton.github.io/recursive_list/",
+  "name": "recursive_list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
